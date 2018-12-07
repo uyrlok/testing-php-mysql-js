@@ -1,0 +1,81 @@
+body {
+	margin: 0px;
+	background-image: url(http://192.168.101.44/img/background.jpg);
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.container {
+    width:450px;
+    height:500px;
+    background-color:rgba(24,33,52,0.7);
+    margin:250px auto 0 auto;
+    text-align: center;
+    box-shadow: 0 -5px 0 #3adbfd;
+    border-radius: 0 0 10px 10px;
+}
+
+input[type="text"], input[type="password"], input[type="repeatpass"], input[type="mail"] {
+    width:300px;
+    height: 50px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+    padding-left: 40px;
+    
+}
+form{
+    padding-top:100px;
+}
+
+.submit {
+    padding: 13px 30px;
+    margin: 5px 0 20px 0;
+    font-size: 15px;
+    color: #fff;
+    background-color: #2ca8c6;
+    border:none;
+    border-bottom: 4px solid #6ee9fd;
+    cursor: pointer;
+}
+
+.submit:hover{
+    transition: all 0.5s;
+    background: #fff;
+    color: #2c536c;
+
+}
+
+.input::before{
+    font-family: "FontAwesome";
+    content: "\f007";
+    position: absolute;
+    font-size: 30px;
+    padding: 10px 0 0 7px;
+    color:#2c536c;
+}
+
+.input:nth-child(2)::before{
+    content: "\f023";
+}
+
+.input:nth-child(3)::before{
+    content: "\f023";
+}
+
+.input:hover::before{
+    color: #319ebc;
+    transition: all 0.3s;
+}
+
+.input input:hover {
+    box-shadow: 0 0 6px 3px rgba(58,219,253,0.35);
+}
+
+
